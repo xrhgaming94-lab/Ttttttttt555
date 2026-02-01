@@ -83,7 +83,7 @@ def calculate_level_progress(current_exp, current_level):
 def fetch_player_info(uid):
     """Fetch player info from external API"""
     try:
-        api_url = f"http://fi11.bot-hosting.net:20886/info?uid=UID&region=IND"
+        api_url = f"https://duranto-info-olive.vercel.app/info?uid={uid}"
         response = requests.get(api_url, timeout=20)
         
         if response.status_code != 200:
