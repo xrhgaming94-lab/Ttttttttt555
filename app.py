@@ -150,7 +150,7 @@ def home():
             "/levels": "Get all level EXP requirements",
             "/level/<level_number>/exp": "Get EXP required for a specific level"
         },
-        "credit": "t.me/kallu_codex7"
+        "credit": "@STAR_GMR"
     })
 
 @app.route('/level')
